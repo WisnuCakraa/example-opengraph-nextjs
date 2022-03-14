@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
         <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
-        <meta property="og:url" content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari" />
+        <meta property="og:url" content="https://www.baf.id/" />
         <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png" />
       </Head>
 

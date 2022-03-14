@@ -8,6 +8,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+        <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+        <meta property="og:url" content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari" />
+        <meta property="og:image" content="http://webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg" />
       </Head>
 
       <main>

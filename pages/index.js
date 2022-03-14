@@ -1,11 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {
+  LinkedinIcon,
+  LinkedinShareButton,
+} from "react-share";
 
 export default function Home() {
   const currentPage = 'docs'
+  const linkedinCaption = "Hi, BAF Friends! Yuk, #CicilAjadiBAF! BAF, Proses Cepat, Angsuran Tepat. Cek akun LinkedIn PT Bussan Auto Finance untuk mendapatkan informasi terkini terkait peluang karir  di BAF! #baf #bafindonesia"
   return (
     <div className="container">
       {/* <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" /> */}
+      <LinkedinShareButton
+        className="ml-1"
+        url={"https://www.baf.id"}
+        source={"https://www.baf.id/static/images/logos/baf.png"}
+        title={linkedinCaption}
+      >
+        <LinkedinIcon size={27} round={true} />
+      </LinkedinShareButton>
       <Head>
         <title>
           {/* Bussan Auto Finance hadir memberikan pelayanan yang Cepat, Ringan, dan Terpercaya untuk Pembiayaan Kredit Motor Yamaha, Pembiayaan Dana Tunai Syana, Pembiayaan Kredit Barang Elektronik dan Furnitur. */}

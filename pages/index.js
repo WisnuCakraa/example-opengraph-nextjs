@@ -4,20 +4,23 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="container">
-      <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" />
+      {/* <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" /> */}
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="INI BAF WEB" />
-        <meta property="og:description" content="INI BAF WEB LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
-        <meta property="og:url" content="https://www.baf.id/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png" />
+        <title>
+          {/* Bussan Auto Finance hadir memberikan pelayanan yang Cepat, Ringan, dan Terpercaya untuk Pembiayaan Kredit Motor Yamaha, Pembiayaan Dana Tunai Syana, Pembiayaan Kredit Barang Elektronik dan Furnitur. */}
+          {'Bussan Auto Finance :: ' + currentPage}
+        </title>
+        <meta name="description" content="Bussan Auto Finance hadir memberikan pelayanan yang Cepat, Ringan, dan Terpercaya untuk Pembiayaan Kredit Motor Yamaha, Pembiayaan Dana Tunai Syana, Pembiayaan Kredit Barang Elektronik dan Furnitur."></meta>
+        <meta property="og:title" content={'Bussan Auto Finance :: ' + currentPage}></meta>
+        <meta property="og:description" content="Bussan Auto Finance hadir memberikan pelayanan yang Cepat, Ringan, dan Terpercaya untuk Pembiayaan Kredit Motor Yamaha, Pembiayaan Dana Tunai Syana, Pembiayaan Kredit Barang Elektronik dan Furnitur."></meta>
+        <meta property="og:url" content="https://baf.id/"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png"></meta>
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js ku!</a>
         </h1>
 
         <p className="description">

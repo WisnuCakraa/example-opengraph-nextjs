@@ -4,14 +4,14 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="container">
-      <img width={200} height={200} src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Square_200x200.png?20060524154217" />
+      <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" />
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
         <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
         <meta property="og:url" content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari" />
-        <meta property="og:image" content="http://webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg" />
+        <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png" />
       </Head>
 
       <main>

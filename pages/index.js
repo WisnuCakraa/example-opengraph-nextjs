@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="container">
+      <img width={200} height={200} src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Square_200x200.png?20060524154217" />
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

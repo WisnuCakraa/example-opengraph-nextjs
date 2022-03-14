@@ -8,8 +8,8 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
-        <meta property="og:description" content="How to change the address bar color in Chrome, Firefox, Opera, Safari" />
+        <meta property="og:title" content="INI BAF WEB" />
+        <meta property="og:description" content="INI BAF WEB LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
         <meta property="og:url" content="https://www.baf.id/" />
         <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png" />
       </Head>

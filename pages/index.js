@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function Home() {
+  const currentPage = 'docs'
   return (
     <div className="container">
       {/* <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" /> */}

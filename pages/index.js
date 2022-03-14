@@ -13,7 +13,7 @@ export default function Home() {
       {/* <img width={200} height={200} src="https://www.baf.id/static/images/logos/baf.png" /> */}
       <LinkedinShareButton
         className="ml-1"
-        url={"https://www.baf.id"}
+        url={"https://example-opengraph-nextjs.vercel.app/"}
         source={"https://www.baf.id/static/images/logos/baf.png"}
         title={linkedinCaption}
       >

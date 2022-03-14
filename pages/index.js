@@ -11,6 +11,7 @@ export default function Home() {
         <meta property="og:title" content="INI BAF WEB" />
         <meta property="og:description" content="INI BAF WEB LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
         <meta property="og:url" content="https://www.baf.id/" />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.baf.id/static/images/logos/baf.png" />
       </Head>
 
